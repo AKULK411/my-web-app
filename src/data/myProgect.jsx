@@ -21,26 +21,7 @@ const myProgect = [
       lang3:'JSON',
       info:'my personal website',
     },
-    {
-      id: 3,
-      name: 'Made in mine abyss',
-      img: foto,
-      src: 'https://modrinth.com/mod/madi-in-mine-abyss',
-      lang1:'Java',
-      lang2:'Js',
-      lang3:'JSON',
-      info:'Mod fo minecraft',
-    },
-    {
-      id: 4,
-      name: 'Made in mine abyss',
-      img: foto,
-      src: 'https://modrinth.com/mod/madi-in-mine-abyss',
-      lang1:'Java',
-      lang2:'Js',
-      lang3:'JSON',
-      info:'Mod fo minecraft',
-    },
+
     
 
 
