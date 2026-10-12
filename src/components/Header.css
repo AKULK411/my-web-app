@@ -1,0 +1,79 @@
+.Header{
+    width: 100%;
+    height: 4rem;
+    background-color: #0D0D0D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    border-bottom: 0.1rem solid #18181b;
+    position: fixed;
+}
+.header-nav{
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+.Logo-Block{
+    display: flex;
+    flex-direction: row;
+}
+.Logo-Icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:#181818;
+    border-radius: 0.8rem;
+    color:#ff334b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    box-shadow: 0 0 15px #ff334b;
+    cursor: pointer;
+}
+.Logo-Text{
+    padding-left: 0.7rem;
+}
+.Navigate{
+    min-width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+
+}
+.Button-Contact-Me{
+    width:7rem ;
+    height: 2rem;
+    font-size: 1rem;
+    border-color: rgba(0,0,0,0);
+    border-radius: 0.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #ff334b;
+}
+.Button-Contact-Me:hover{
+    background-color: #ff1a35;
+}
+.Nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    text-decoration: none;
+    color:#a1a1aa;
+}
+.Nav:hover{
+    background-color: rgba(255,255,255,15%);
+    color:#ff334b;
+}
+.Nav.active{
+    color:#fff;
+}
+.Text-Bg{
+    padding: 0.5rem;
+    font-weight: 900;
+}
+

@@ -1,0 +1,61 @@
+{
+  "common": {
+    "returnHome": "Return to the home ->",
+    "exploreProjects": "Explore Projects ->",
+    "sendMessage": "Send Message",
+    "contactMe": "Contact Me",
+    "viewDetails": "View Details ->"
+  },
+  "header": {
+    "contactMe": "Contact Me"
+  },
+  "main": {
+    "role": "Full-Stack Developer",
+    "desc": "Crafting high-performance web interfaces and cross-platform mobile experiences. Specialized in clean architecture, sleek dark-mode UX, and robust backend integrations",
+    "coreCompetencies": "// CORE COMPETENCIES",
+    "techStackTitle": "Technology Stack & Toolkit",
+    "selectedWorks": "// SELECTED WORKS",
+    "featuredProjects": "Featured Projects Showcase",
+    "wantToSeeMore": "Want to see more of my projects?",
+    "exploreFullList": "Explore my full projects list.",
+    "goToDirectory": "Go to Projects Directory ->",
+    "initMsg": "// Executing initialization..."
+  },
+  "about": {
+    "bgQualifications": "// BACKGROUND & QUALIFICATIONS",
+    "title": "About Egor / AKULA",
+    "desc": "Specialized Secondary Application Developer based with full-stack capability.",
+    "bioOverview": "Bio Overview",
+    "bioText": "Hello! I am Egor, known online as <1>AKULA</1>. I hold a specialized secondary education degree in Mobile and Web Application Development.",
+    "bioExtra": "My expertise bridges client-facing interfaces (React, HTML5, CSS3, JavaScript) with powerful backend logic and native mobile components (Java, Kotlin, Python). I enjoy building clean, resilient software with dark, modern visual flair.",
+    "educationCredentials": "Education Credentials",
+    "specDegree": "Specialized Secondary Degree in Software Engineering",
+    "specMobileWeb": "Specialization: Mobile & Web Application Development",
+    "rigorousTech": "Rigorous technical program covering object-oriented programming, data structures, mobile UI patterns, database management, and responsive web design.",
+    "skillProficiency": "Skill Proficiency"
+  },
+  "contact": {
+    "getInTouch": "// GET IN TOUCH",
+    "title": "Contact Me",
+    "desc": "Have a project idea, job offer, or technical question? Send a message directly.",
+    "yourName": "YOUR NAME*",
+    "namePlaceholder": "Name & Surname",
+    "email": "EMAIL ADDRESS*",
+    "emailPlaceholder": "alex@gmail.com",
+    "subject": "SUBJECT*",
+    "subjectPlaceholder": "Project Inquiry / Job Opportunity",
+    "message": "MESSAGE*",
+    "messagePlaceholder": "Tell me about project scope or task requirement...",
+    "transmitMessage": "Transmit Message",
+    "directChannels": "Direct Communication Channels"
+  },
+  "notFound": {
+    "title": "PAGE NOT FOUND",
+    "desc": "The requested address or resource was not found on the server. The link may be outdated, or the page may have been moved.",
+    "stackTrace": "// Diagnostic stack trace:"
+  },
+  "projects": {
+    "repository": "// REPOSITORY",
+    "title": "All Projects"
+  }
+}

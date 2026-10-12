@@ -1,0 +1,61 @@
+{
+  "common": {
+    "returnHome": "Retour à l'accueil ->",
+    "exploreProjects": "Explorer les projets ->",
+    "sendMessage": "Envoyer un message",
+    "contactMe": "Me Contacter",
+    "viewDetails": "Voir les détails ->"
+  },
+  "header": {
+    "contactMe": "Me Contacter"
+  },
+  "main": {
+    "role": "Développeur Full-Stack",
+    "desc": "Création d'interfaces web performantes et d'expériences mobiles multiplateformes. Spécialisé dans l'architecture propre, l'UX mode sombre élégante et les intégrations backend robustes.",
+    "coreCompetencies": "// COMPÉTENCES CLÉS",
+    "techStackTitle": "Stack Technologique & Outils",
+    "selectedWorks": "// TRAVAUX SÉLECTIONNÉS",
+    "featuredProjects": "Vitrine des projets en vedette",
+    "wantToSeeMore": "Vous voulez voir plus de mes projets ?",
+    "exploreFullList": "Explorez ma liste complète de projets.",
+    "goToDirectory": "Aller au répertoire des projets ->",
+    "initMsg": "// Exécution de l'initialisation..."
+  },
+  "about": {
+    "bgQualifications": "// PARCOURS & QUALIFICATIONS",
+    "title": "À propos d'Egor / AKULA",
+    "desc": "Développeur d'applications spécialisé avec une capacité full-stack.",
+    "bioOverview": "Aperçu biographique",
+    "bioText": "Bonjour ! Je suis Egor, connu en ligne sous le nom de <1>AKULA</1>. Je suis titulaire d'un diplôme de l'enseignement secondaire spécialisé en développement d'applications mobiles et web.",
+    "bioExtra": "Mon expertise fait le pont entre les interfaces côté client (React, HTML5, CSS3, JavaScript) et une logique backend puissante ainsi que des composants mobiles natifs (Java, Kotlin, Python). J'aime construire des logiciels propres et résilients avec un style visuel sombre et moderne.",
+    "educationCredentials": "Diplômes",
+    "specDegree": "Diplôme de l'enseignement secondaire spécialisé en génie logiciel",
+    "specMobileWeb": "Spécialisation : Développement d'applications mobiles et web",
+    "rigorousTech": "Programme technique rigoureux couvrant la programmation orientée objet, les structures de données, les modèles d'interface mobile, la gestion de bases de données et le design web responsive.",
+    "skillProficiency": "Compétences"
+  },
+  "contact": {
+    "getInTouch": "// PRENDRE CONTACT",
+    "title": "Contactez-moi",
+    "desc": "Vous avez une idée de projet, une offre d'emploi ou une question technique ? Envoyez-moi un message directement.",
+    "yourName": "VOTRE NOM*",
+    "namePlaceholder": "Nom & Prénom",
+    "email": "ADRESSE EMAIL*",
+    "emailPlaceholder": "alex@gmail.com",
+    "subject": "SUJET*",
+    "subjectPlaceholder": "Demande de projet / Opportunité d'emploi",
+    "message": "MESSAGE*",
+    "messagePlaceholder": "Parlez-moi de la portée du projet ou des exigences de la tâche...",
+    "transmitMessage": "Transmettre le message",
+    "directChannels": "Canaux de communication directs"
+  },
+  "notFound": {
+    "title": "PAGE INTROUVABLE",
+    "desc": "L'adresse ou la ressource demandée n'a pas été trouvée sur le serveur. Le lien est peut-être obsolète ou la page a été déplacée.",
+    "stackTrace": "// Trace de la pile de diagnostic :"
+  },
+  "projects": {
+    "repository": "// RÉPERTOIRE",
+    "title": "Tous les Projets"
+  }
+}
