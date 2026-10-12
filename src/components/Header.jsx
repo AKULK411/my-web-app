@@ -26,7 +26,7 @@ export default function Header(){
         </div>
         <nav className='Navigate'>
           <NavLink to='/' end className='Nav'><p className='Text-Bg'>/home</p></NavLink>
-          <NavLink to='/MyProgects' className='Nav'><p className='Text-Bg'>/progects</p></NavLink>
+          <NavLink to='/MyProgects' className='Nav'><p className='Text-Bg'>/projects</p></NavLink>
           <NavLink to='/AboutMe' className='Nav'><p className='Text-Bg'>/about</p></NavLink>
           <button className='Button-Contact-Me'>
             <NavLink to='/ContactMe' style={{textDecoration: 'none'}}>
