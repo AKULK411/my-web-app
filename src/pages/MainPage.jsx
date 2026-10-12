@@ -50,9 +50,9 @@ export default function MainPage(){
 
             <div className='line-text'><span style={{color:'#ff334b'}}>object&nbsp;</span><span style={{fontWeight:'600', color:'#fff'}}>Developer&nbsp;</span>&#123;</div>
             <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>name = <span style={{color:'#34d399'}}>"Егор / AKULA"</span></div>
-            <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>degree = <span style={{color:'#34d399'}}>""</span></div>
-            <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>specialization = <span style={{color:'#34d399'}}>""</span></div>
-            <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>status = <span style={{color:'#34d399'}}>""</span></div>
+            <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>degree = <span style={{color:'#34d399'}}>"vocational education"</span></div>
+            <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>specialization = <span style={{color:'#34d399'}}>"Mobile & Web Applications"</span></div>
+            <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>status = <span style={{color:'#34d399'}}>"Ready for Hiring"</span></div>
             <div className='line-text'><span style={{color:'#ff334b'}}>&nbsp;&nbsp;val&nbsp;</span>stack = listOf(<span style={{color:'#34d399'}}></span></div>
             <div className='line-text'><span style={{color:'#fcd34d'}}>&nbsp;&nbsp;&nbsp;&nbsp;"HTML", "CSS", "JS", "React",</span></div>
             <div className='line-text'><span style={{color:'#fcd34d'}}>&nbsp;&nbsp;&nbsp;&nbsp;"Java", "Kotlin", "Python"</span></div>
