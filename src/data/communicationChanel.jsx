@@ -28,8 +28,8 @@ const communicationChanel = [
     {
         id:4,
         name:'EMAIL',
-        src:'',
-        linkName:'qwerty@gmail.com',
+        src:'mailto:vash-akula4191@gmail.com',
+        linkName:'akula4191@gmail.com',
         img: letter,
     },
 ]

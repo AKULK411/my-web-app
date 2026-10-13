@@ -1,4 +1,5 @@
 import foto from '../assets/ner12456v.png'
+import myWeb from '../assets/webSite.png'
 
 const myProgect = [
     {
@@ -14,7 +15,7 @@ const myProgect = [
     {
       id: 2,
       name: 'my-web-app',
-      img: foto,
+      img: myWeb,
       src: 'https://github.com/AKULK411/my-web-app',
       lang1:'React',
       lang2:'CSS',
