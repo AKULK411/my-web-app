@@ -1,6 +1,6 @@
 import foto from '../assets/ner12456v.png'
 import myWeb from '../assets/webSite.png'
-import PZ from '../assets/poster.png'
+import projectZ from '../assets/poster.png'
 
 const myProgect = [
     {
@@ -26,7 +26,7 @@ const myProgect = [
     {
       id: 3,
       name: 'PZ mod Allergy',
-      img: PZ,
+      img: projectZ,
       src: 'https://github.com/AKULK411/Zomdoib_mod_allergySystem',
       lang1:'Lua',
       lang2:'Java',
