@@ -12,7 +12,7 @@ export default function ContactMe(){
   function validEmail(email){ return emailRegex.test(email); }
   function handleChange(e){ setButtonState(!validEmail(e.target.value)); }
 
-  async function handleSumbit(){
+  async function handleSumbit(event){
     event.preventDefault() //отменяет перезагрузку страницы после отправки формы
     const form = event.currentTarget //берет данные сохраняя форму и очищая после поля
     setSubmitStatus('Отправка…')
@@ -50,7 +50,7 @@ export default function ContactMe(){
         
         <div className='contact-container'>
           <div className='Block-Form'>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSumbit}>
               <div className='input'>
                 <label style={{color:'#a1a1aa', marginBottom:'2%'}}>{t('contact.yourName')}<span style={{color:'#ff334b'}}>*</span></label>
                 <input name='name' className='inFocus' type='text' placeholder={t('contact.namePlaceholder')} required/>
