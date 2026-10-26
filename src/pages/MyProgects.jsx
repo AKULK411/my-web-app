@@ -12,14 +12,14 @@ export default function MyProgects() {
       <div className="projects-container">
         <div className='header-text'>
 
-          <p style={{color:'#ff334b'}}>{t('projects.repository')}</p>
+          <p style={{ color: '#ff334b' }}>{t('projects.repository')}</p>
           <h2 className="projects-title">{t('projects.title')}</h2>
-          <p style={{color:'#a1a1aa', fontSize:'1rem'}}>{t('projects.description')}</p>
+          <p style={{ color: '#a1a1aa', fontSize: '1rem' }}>{t('projects.description')}</p>
         </div>
         <div className="projects-grid">
           {progects.map((project) => (
             <div key={project.id} className="project-card">
-              <img src={project.img} className="project-card-image"/>
+              <img src={project.img} className="project-card-image" />
               <div className="project-card-content">
                 <div className='lang-badges'>
                   <span className='project-card-langBlock'>{project.lang1}</span>

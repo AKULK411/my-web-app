@@ -7,50 +7,50 @@ import Kotlin from '../assets/kotlin-icon.svg'
 import Python from '../assets/python-icon.svg'
 
 
-const miniCardsToolkit =[
+const miniCardsToolkit = [
     {
-        id:1,
-        name:'HTML5',
+        id: 1,
+        name: 'HTML5',
         img: html,
-        info:'Markup',
+        info: 'Markup',
     },
     {
-        id:2,
-        name:'CSS3',
-        img: css ,
-        info:'Styling',
+        id: 2,
+        name: 'CSS3',
+        img: css,
+        info: 'Styling',
     },
     {
-        id:3,
-        name:'JavaScript',
+        id: 3,
+        name: 'JavaScript',
         img: JavaS,
-        info:'Web Logic',
+        info: 'Web Logic',
     },
     {
-        id:4,
-        name:'React',
+        id: 4,
+        name: 'React',
         img: react,
-        info:'Frontend UI',
+        info: 'Frontend UI',
     },
     {
-        id:5,
-        name:'Java',
+        id: 5,
+        name: 'Java',
         img: Java,
-        info:'Backend/Android',
+        info: 'Backend/Android',
     },
     {
-        id:6,
-        name:'Kotlin',
+        id: 6,
+        name: 'Kotlin',
         img: Kotlin,
-        info:'Mobile Dev',
+        info: 'Mobile Dev',
     },
     {
-        id:7,
-        name:'Python',
+        id: 7,
+        name: 'Python',
         img: Python,
-        info:'Scripting',
+        info: 'Scripting',
     },
-    
+
 
 ]
 export default miniCardsToolkit;

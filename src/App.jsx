@@ -20,8 +20,8 @@ export default function App() {
   return (
     <>
       <div style={{ position: 'fixed', top: 20, right: 20, zIndex: 1000, display: 'flex', gap: '10px' }}>
-        <button onClick={() => i18n.changeLanguage('en')} style={{color: i18n.language === 'en' ? '#ff334b' : '#fff', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 'bold'}}>EN</button>
-        <button onClick={() => i18n.changeLanguage('ru')} style={{color: i18n.language === 'ru' ? '#ff334b' : '#fff', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 'bold'}}>RU</button>
+        <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'en' ? '#ff334b' : '#fff', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 'bold' }}>EN</button>
+        <button onClick={() => i18n.changeLanguage('ru')} style={{ color: i18n.language === 'ru' ? '#ff334b' : '#fff', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 'bold' }}>RU</button>
       </div>
 
       <Routes>
