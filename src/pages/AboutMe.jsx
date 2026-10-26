@@ -5,6 +5,7 @@ export default function AboutMe(){
   const { t } = useTranslation();
 
   return(<>
+  <main className='main'>
     <div className='___'></div>
     <div className='container-AboutMe'>
       <div className='About-text'>
@@ -60,5 +61,7 @@ export default function AboutMe(){
         </div>
       </div>
     </div>
+  </main>
+    
   </>)
 }

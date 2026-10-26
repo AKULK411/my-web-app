@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import './Header.css'
 import { useState } from "react"
 import { useTranslation } from "react-i18next"
@@ -28,12 +28,9 @@ export default function Header(){
           <NavLink to='/' end className='Nav'><p className='Text-Bg'>/home</p></NavLink>
           <NavLink to='/MyProgects' className='Nav'><p className='Text-Bg'>/projects</p></NavLink>
           <NavLink to='/AboutMe' className='Nav'><p className='Text-Bg'>/about</p></NavLink>
-          <button className='Button-Contact-Me'>
-            <NavLink to='/ContactMe' style={{textDecoration: 'none'}}>
-
+            <NavLink className='Button-Contact-Me' to='/ContactMe' style={{textDecoration: 'none'}}>
               <p style={{color:'#fff'}}>{t('header.contactMe')}</p>
             </NavLink>
-          </button>
         </nav>
       </div>
     </header>

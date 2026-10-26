@@ -26,7 +26,7 @@
     "title": "About Egor / AKULA",
     "desc": "Specialized Secondary Application Developer based with full-stack capability.",
     "bioOverview": "Bio Overview",
-    "bioText": "Hello! I am Egor, known online as <1>AKULA</1>. I hold a specialized secondary education degree in Mobile and Web Application Development.",
+    "bioText": "Hello! I am <1>Egor</1>, known online as <3>AKULA</3>. I hold a <1>specialized secondary education degree</1> in Mobile and Web Application Development.",
     "bioExtra": "My expertise bridges client-facing interfaces (React, HTML5, CSS3, JavaScript) with powerful backend logic and native mobile components (Java, Kotlin, Python). I enjoy building clean, resilient software with dark, modern visual flair.",
     "educationCredentials": "Education Credentials",
     "specDegree": "Specialized Secondary Degree in Software Engineering",
@@ -38,13 +38,13 @@
     "getInTouch": "// GET IN TOUCH",
     "title": "Contact Me",
     "desc": "Have a project idea, job offer, or technical question? Send a message directly.",
-    "yourName": "YOUR NAME*",
-    "namePlaceholder": "Name & Surname",
-    "email": "EMAIL ADDRESS*",
+    "yourName": "YOUR NAME",
+    "namePlaceholder": "Name",
+    "email": "EMAIL ADDRESS",
     "emailPlaceholder": "alex@gmail.com",
-    "subject": "SUBJECT*",
+    "subject": "SUBJECT",
     "subjectPlaceholder": "Project Inquiry / Job Opportunity",
-    "message": "MESSAGE*",
+    "message": "MESSAGE",
     "messagePlaceholder": "Tell me about project scope or task requirement...",
     "transmitMessage": "Transmit Message",
     "directChannels": "Direct Communication Channels"
@@ -56,6 +56,8 @@
   },
   "projects": {
     "repository": "// REPOSITORY",
-    "title": "All Projects"
+    "title": "All Projects",
+    "description":"Here you can see all my projects"
+    
   }
 }

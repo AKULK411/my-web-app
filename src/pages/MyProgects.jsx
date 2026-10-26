@@ -14,6 +14,7 @@ export default function MyProgects() {
 
           <p style={{color:'#ff334b'}}>{t('projects.repository')}</p>
           <h2 className="projects-title">{t('projects.title')}</h2>
+          <p style={{color:'#a1a1aa', fontSize:'1rem'}}>{t('projects.description')}</p>
         </div>
         <div className="projects-grid">
           {progects.map((project) => (

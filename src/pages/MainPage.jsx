@@ -1,5 +1,4 @@
 import './MainPage.css'
-import mess from '../assets/letter.svg'
 import progects from '../data/myProgect';
 import Toolkit from '../data/miniCardsToolkit.jsx'
 import { NavLink } from 'react-router-dom'

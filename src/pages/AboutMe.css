@@ -1,20 +1,17 @@
 
 .container-AboutMe{
-    width: 100%;
-    min-height: 100vh;
-    background-color: #0d0d0d;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .About-text{
-    border-bottom: 1px solid #27272a;
-    max-width: 1000px;
-    margin: 0 auto;
+    border-bottom:1px solid #27272a;
+    margin-bottom: 5%;
     padding: 20px;
 }
 .about-text-block{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
 
 }
 .flex-about{
