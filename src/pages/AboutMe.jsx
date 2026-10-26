@@ -17,9 +17,9 @@ export default function AboutMe() {
         <div className='about-text-block'>
           <div className='flex-about'>
             <div className='left-about-blocks'>
+
               <div className='left-about-bio'>
                 <h2 style={{ color: '#fff', fontWeight: '600', padding: '3%' }}>{t('about.bioOverview')}</h2>
-
                 <p style={{ color: '#a1a1aa', fontWeight: '400', paddingBottom: '3%' }}>
                   <Trans i18nKey="about.bioText">
                     Hello! I am <span style={{ color: '#fff', fontWeight: '600' }}>Egor</span>, known online as <span style={{ color: '#ff334b', fontWeight: '600' }}>AKULA</span>.
@@ -28,6 +28,7 @@ export default function AboutMe() {
                 </p>
                 <span style={{ color: '#a1a1aa', fontWeight: '400' }}>{t('about.bioExtra')}</span>
               </div>
+
               <div className='left-about-education'>
                 <h2 style={{ color: '#fff', fontWeight: '600', padding: '3%' }}>{t('about.educationCredentials')}</h2>
                 <div className='left-about-education-redLine-style'>

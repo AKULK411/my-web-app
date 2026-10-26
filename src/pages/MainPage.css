@@ -12,9 +12,15 @@
         linear-gradient(to bottom, #18181b 1px, transparent 1px);
     background-size: 3rem 3rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #27272a;
+}
+@media screen and (max-width:768px) {
+    .container-info{
+        flex-direction: column;
+    }
 }
 
 .circle {
