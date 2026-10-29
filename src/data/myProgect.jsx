@@ -1,13 +1,14 @@
 import foto from '../assets/ner12456v.png'
 import myWeb from '../assets/webSite.png'
 import projectZ from '../assets/poster.png'
+import icon512 from '../assets/icon512.png'
 
 const myProgect = [
   {
     id: 1,
     name: 'Made in mine abyss',
-    img: foto,
-    src: 'https://modrinth.com/mod/madi-in-mine-abyss',
+    img: icon512,
+    src: 'https://modrinth.com/mod/made-in-depths-of-void',
     lang1: 'Java',
     lang2: 'Js',
     lang3: 'JSON',
@@ -15,7 +16,7 @@ const myProgect = [
   },
   {
     id: 2,
-    name: 'my-web-app',
+    name: 'My portfolio',
     img: myWeb,
     src: 'https://github.com/AKULK411/my-web-app',
     lang1: 'React',

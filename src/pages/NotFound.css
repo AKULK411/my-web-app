@@ -71,30 +71,17 @@
     font-weight: 900;
 }
 
-.badges-lang {
-    display: flex;
-}
-
-.lang-dev {
-    margin-top: 0.3rem;
-    margin-right: 0.5rem;
-    padding: 0.2rem 0.5rem;
-    background-color: #18181b;
-    color: #fff;
-    border: 0.5px solid #27272a;
-    border-radius: 0.3rem;
-    font-weight: 500;
-    font-size: 0.9rem;
-}
-
 .button-main-page {
     margin-top: 7%;
     background-color: #ff334b;
     border-radius: 0.5rem;
     border: 0 solid;
+    display: block;
+    max-width: max-content;
+    max-height: max-content;
 }
 
-.button-nav-main-page:hover {
+.button-main-page:hover {
     background-color: #ff1a35;
 }
 
@@ -105,95 +92,13 @@
     font-weight: 600;
 }
 
-.toolkits-mini-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
-    gap: 20px;
-    max-width: 90rem;
-
-}
-
-.mini-cards {
-    min-height: 7.5rem;
-    border: 1px solid #27272a;
-    border-radius: 0.6rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #18181B;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.img-card {
-    width: 1.7rem;
-
-}
-
-.mini-cards:hover {
-    border: 1px solid #ff334b;
-    transform: translateY(-4px);
-    box-shadow: 0 10px 15px -3px #ff334b;
-
-}
-
 .main-page {
     background-color: #0d0d0d;
     min-height: 100vh;
 }
 
-.container-Technology-toolkit {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
 
-.Technology-toolkit-text {
-    border-bottom: 1px solid #27272a;
-    margin-bottom: 2%;
-}
 
-.bg-container-projects {
-    background-image:
-        linear-gradient(to right, #18181b 1px, transparent 1px),
-        linear-gradient(to bottom, #18181b 1px, transparent 1px);
-    background-size: 3rem 3rem;
-    border-top: 1px solid #27272a;
-}
 
-.container-progects {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
-.text-projects-block {
-    margin-bottom: 4%;
-    margin-top: 4%;
-}
 
-.Project-directory {
-    margin-top: 3%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
-    background-color: #18181b;
-    border: 1px solid #27272a;
-    border-radius: 0.5rem;
-}
-
-.button-send-mess {
-    margin-top: 3%;
-    margin-left: 4%;
-    border: 1px solid #27272a;
-    border-radius: 0.5rem;
-    background-color: #18181b;
-}
-
-.button-send-mess:hover {
-    background: #27272a;
-}

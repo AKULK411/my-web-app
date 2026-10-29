@@ -29,9 +29,9 @@ export default function MainPage() {
             <p className='lang-dev'>Python</p>
           </div>
 
-          <div>
-            <button className='button-nav-main-page'><NavLink to='/MyProgects' style={{ textDecoration: 'none' }}><p className='Button-text'>{t('common.exploreProjects')}</p></NavLink></button>
-            <button className='button-send-mess'><NavLink to='/ContactMe' style={{ textDecoration: 'none' }}><p className='Button-text'>{t('common.sendMessage')}</p></NavLink></button>
+          <div style={{display:'flex'}}>
+            <NavLink to='/MyProgects' className='button-nav-main-page' style={{ textDecoration: 'none' }}><p className='Button-text'>{t('common.exploreProjects')}</p></NavLink>
+            <NavLink to='/ContactMe' className='button-send-mess' style={{ textDecoration: 'none' }}><p className='Button-text'>{t('common.sendMessage')}</p></NavLink>
           </div>
         </div>
 
@@ -107,9 +107,7 @@ export default function MainPage() {
               <h3 style={{ color: '#fff', fontSize: '1.4rem', fontWeight: '900' }}>{t('main.wantToSeeMore')}</h3>
               <p style={{ color: '#a1a1aa', fontWeight: '400' }}>{t('main.exploreFullList')}</p>
             </div>
-            <button className='button-nav-main-page'>
-              <NavLink to='/MyProgects' style={{ textDecoration: 'none' }}><p className='Button-text'>{t('main.goToDirectory')}</p></NavLink>
-            </button>
+              <NavLink to='/MyProgects' className='button-nav-main-page' style={{ textDecoration: 'none' }}><p className='Button-text'>{t('main.goToDirectory')}</p></NavLink>
           </div>
         </div>
       </div>

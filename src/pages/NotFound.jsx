@@ -13,11 +13,9 @@ export default function NotFound() {
           <h2 className='gradient-text' style={{ fontSize: '2.5rem' }}>{t('notFound.title')}</h2>
           <p style={{ color: '#a1a1aa', paddingTop: '1.5rem', fontSize: '1.2rem', fontWeight: '600' }}>{t('notFound.desc')}</p>
           <div>
-            <button className='button-main-page'>
-              <NavLink to='/' style={{ textDecoration: 'none' }}>
+              <NavLink className='button-main-page' to='/' style={{ textDecoration: 'none' }}>
                 <p className='Button-text'>{t('common.returnHome')}</p>
               </NavLink>
-            </button>
           </div>
         </div>
 

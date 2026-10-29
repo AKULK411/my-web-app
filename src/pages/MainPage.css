@@ -97,14 +97,31 @@
     background-color: #ff334b;
     border-radius: 0.5rem;
     border: 0 solid;
+    display: block;
+    margin: 3% 5% 0% 0%;
+    max-width: max-content;
+    max-height: max-content;
 }
 
 .button-nav-main-page:hover {
     background-color: #ff1a35;
 }
 
+.button-send-mess {
+    max-width: max-content;
+    display: block;
+    margin: 3% 5% 0% 0%;
+    border: 1px solid #27272a;
+    border-radius: 0.5rem;
+    background-color: #18181b;
+}
+
+.button-send-mess:hover {
+    background: #27272a;
+}
+
 .Button-text {
-    padding: 1rem;
+    
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
@@ -188,14 +205,3 @@
     border-radius: 0.5rem;
 }
 
-.button-send-mess {
-    margin-top: 3%;
-    margin-left: 4%;
-    border: 1px solid #27272a;
-    border-radius: 0.5rem;
-    background-color: #18181b;
-}
-
-.button-send-mess:hover {
-    background: #27272a;
-}

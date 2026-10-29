@@ -10,7 +10,7 @@ export default function Header() {
   return (<>
     <header className='Header'>
       <div className='header-nav'>
-        <div className='Logo-Block'>
+        <NavLink to='/' style={{textDecoration:'none'}} className='Logo-Block'>
           <div className='Logo-Icon'
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -23,7 +23,7 @@ export default function Header() {
               style={{ color: isHovered ? '#ff334b' : '#fff', cursor: 'pointer' }}>AKULA</h3>
             <p style={{ color: '#a1a1aa' }}>// EGOR</p>
           </div>
-        </div>
+        </NavLink>
         <nav className='Navigate'>
           <NavLink to='/' end className='Nav'><p className='Text-Bg'>/home</p></NavLink>
           <NavLink to='/MyProgects' className='Nav'><p className='Text-Bg'>/projects</p></NavLink>
