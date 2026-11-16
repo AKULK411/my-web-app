@@ -2,6 +2,8 @@ import foto from '../assets/ner12456v.png'
 import myWeb from '../assets/webSite.png'
 import projectZ from '../assets/poster.png'
 import icon512 from '../assets/icon512.png'
+import orange from '../assets/orangeGraph.jpg'
+import chem from '../assets/chem.jpg'
 
 const myProgect = [
   {
@@ -33,6 +35,26 @@ const myProgect = [
     lang2: 'Java',
     lang3: 'JSON',
     info: 'mod for Project Zomboid',
+  },
+    {
+    id: 4,
+    name: 'Chemical calculator',
+    img: chem,
+    src: 'https://chemcalc-zjvc.onrender.com/',
+    lang1: 'Kotlin',
+    lang2: 'React',
+    lang3: 'python',
+    info: 'calculator for chemical reactions',
+  },
+    {
+    id: 5,
+    name: 'Network graph',
+    img: orange,
+    src: 'https://network-graph-wmhw.onrender.com/',
+    lang1: 'React',
+    lang2: 'CSS',
+    lang3: 'JSON',
+    info: 'web Service for visualizing network graphs',
   },
 
 
